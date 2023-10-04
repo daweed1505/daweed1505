@@ -1,1 +1,9 @@
+<button id="myButton">Hello HTLM</button>
 
+<script>
+  const button = document.getElementById("myButton");
+        button.style="position: absolute; top: 100px; right: 300px;"
+  button.addEventListener("click", function() {
+    console.log("Hello console");
+  });
+</script>
